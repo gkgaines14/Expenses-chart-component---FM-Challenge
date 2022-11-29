@@ -1,0 +1,145 @@
+:root{
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+}
+
+
+body {
+    font-size: 18px;
+    background-color: var(--cream);
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    flex-direction: column;
+
+}
+.container{
+    width: 500px;
+    /* margin: 20px; */
+}
+.top {
+    background-color: var(--soft-red);
+    color: var(--very-pale-orange);
+    border-radius: 15px;
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.balance p{
+    color: var(--cream);
+    margin: 18px 0px 3px;
+}
+
+.balance h2{
+    color: var(--cream);
+    margin: 0px 0px 18px;
+    font-size: 2rem;
+}
+
+.spending h2{
+    color: var(--dark-brown);
+    margin: 0px 0px 8px;
+    font-size: 2.2rem;
+    padding: 0px 5px;
+}
+
+.graph {
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+    margin: 0px;
+}
+
+.days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amt{
+    background-color: var(--dark-brown);
+    color: var(--cream);
+    border-radius: 4px;
+    padding: 7px;
+    margin: 7px 0px;
+
+}
+
+.bar{
+    border-radius: 4px;
+    background-color: var(--soft-red);
+    height: 150px;
+    width: 45px;
+    /* margin: 0px 0px 0px ; */
+}
+
+.bar:hover{
+    background-color:hsl(10, 79%, 75%);
+    cursor: pointer;
+}
+
+.summary-card {
+    background-color: var(--very-pale-orange);
+    border-radius: 15px;
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* width: 300px; */
+    margin: 20px 0px;
+    padding: 25px;
+    max-height: 480px;
+}
+
+.bottom {
+    display: flex;
+    align-content: space-between;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 30px 0px;
+    padding: 0px 5px;
+
+
+}
+
+.summary-card p{
+    color: var(--medium-brown);
+}
+
+.graph p{
+    margin: 5px;
+}
+
+.bottom h1,
+.bottom h3{
+    color: var(--dark-brown);
+}
+.bottom p {
+    margin: 0px;
+}
+
+.month-total p{
+    /* margin: 20px 0px 0px; */
+}
+
+.month-total h1{
+    margin: 0px 0px 0px;
+    font-size: 2.8rem;
+}
+.percent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.percent h3{
+    margin: 18px 0px 0px;
+}

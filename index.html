@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Expenses chart component</title>
-
+  <link rel="stylesheet" href="styles.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -16,28 +16,87 @@
 </head>
 <body>
 
-  My balance
-  $921.48
+<!-- <div class="test"></div> -->
+<div class="container">
+  
+  <div class="top">
+    <div class="balance">
+      <p>My balance</p>
+      <h2>$921.48</h2>
+    </div>
+    <div class="icon">
+      <img src="images\logo.svg" alt="">
+    </div>
+  </div>
 
-  Spending - Last 7 days
+  <div class="summary-card">
+    
+    <div class="spending">
+      <h2>Spending - Last 7 days</h2> 
+    </div>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+    <div class="graph">
+      <div class="monday days">
+        <div class="m-amt amt">$33.21</div>
+        <div class="m-bar bar"></div>
+        <p>mon</p>
+      </div>
+      <div class="tuesday days">
+        <div class="tu-amt amt">$33.21</div>
+        <div class="tu-bar bar"></div>
+        <p>tue</p>
+      </div>
+      <div class="wednesday days">
+        <div class="w-amt amt">$33.21</div>
+        <div class="w-bar bar"></div>
+        <p>wed</p>
+      </div>
+      <div class="thursday days">
+        <div class="th-amt amt">$33.21</div>
+        <div class="th-bar bar"></div>
+        <p>thu</p>
+      </div>
+      <div class="friday days">
+        <div class="f-amt amt">$33.21</div>
+        <div class="f-bar bar"></div>
+        <p>fri</p>
+      </div>
+      <div class="saturday days">
+        <div class="sa-amt amt">$33.21</div>
+        <div class="sa-bar bar"></div>
+        <p>sat</p>
+      </div>
+      <div class="sunday days">
+        <div class="su-amt amt">$33.21</div>
+        <div class="su-bar bar"></div>
+        <p>sun</p>
+      </div>
+      
+    
+    </div>
+    
+    <div class="bottom">
+      <div class="month-total">
+        <p>Total this month</p>
+        <h1>$478.33</H1>
+      </div>
+      <div class="percent">
+        <h3>+2.4%</h3>
+        <p>from last month</p>
+      </div>
+    </div>
+  
+  </div>
+</div>
 
-  Total this month
-  $478.33
 
-  +2.4%
-  from last month
+</div>
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/gkgaines14" target="#">Greg Gaines</a>.
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
