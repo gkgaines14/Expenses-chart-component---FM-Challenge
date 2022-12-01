@@ -17,86 +17,84 @@
 <body>
 
 <!-- <div class="test"></div> -->
-<div class="container">
-  
-  <div class="top">
-    <div class="balance">
-      <p>My balance</p>
-      <h2>$921.48</h2>
-    </div>
-    <div class="icon">
-      <img src="images\logo.svg" alt="">
-    </div>
-  </div>
-
-  <div class="summary-card">
-    
-    <div class="spending">
-      <h2>Spending - Last 7 days</h2> 
+  <div class="container">
+    <div class="top">
+      <div class="balance">
+        <p>My balance</p>
+        <h2>$921.48</h2>
+      </div>
+      <div class="icon">
+        <img src="images\logo.svg" alt="">
+      </div>
     </div>
 
-    <div class="graph">
-      <div class="monday days">
-        <div class="m-amt amt">$33.21</div>
-        <div class="m-bar bar"></div>
-        <p>mon</p>
+    <div class="summary-card">
+      
+      <div class="spending">
+        <h2>Spending - Last 7 days</h2> 
       </div>
-      <div class="tuesday days">
-        <div class="tu-amt amt">$33.21</div>
-        <div class="tu-bar bar"></div>
-        <p>tue</p>
-      </div>
-      <div class="wednesday days">
-        <div class="w-amt amt">$33.21</div>
-        <div class="w-bar bar"></div>
-        <p>wed</p>
-      </div>
-      <div class="thursday days">
-        <div class="th-amt amt">$33.21</div>
-        <div class="th-bar bar"></div>
-        <p>thu</p>
-      </div>
-      <div class="friday days">
-        <div class="f-amt amt">$33.21</div>
-        <div class="f-bar bar"></div>
-        <p>fri</p>
-      </div>
-      <div class="saturday days">
-        <div class="sa-amt amt">$33.21</div>
-        <div class="sa-bar bar"></div>
-        <p>sat</p>
-      </div>
-      <div class="sunday days">
-        <div class="su-amt amt">$33.21</div>
-        <div class="su-bar bar"></div>
-        <p>sun</p>
+
+      <div class="graph">
+        <div class="monday days">
+          <div id="mon-amt" class="amt"></div>
+          <div id="mon-bar" class="bar"></div>
+          <p>mon</p>
+        </div>
+        <div class="tuesday days">
+          <div id="tue-amt" class="amt">$33.21</div>
+          <div id="tue-bar" class="bar"></div>
+          <p>tue</p>
+        </div>
+        <div class="wednesday days">
+          <div id="wed-amt" class="amt">$33.21</div>
+          <div id="wed-bar" class="bar"></div>
+          <p>wed</p>
+        </div>
+        <div class="thursday days">
+          <div id="thu-amt" class="amt">$33.21</div>
+          <div id="thu-bar" class="bar"></div>
+          <p>thu</p>
+        </div>
+        <div class="friday days">
+          <div id="fri-amt" class="amt">$33.21</div>
+          <div id="fri-bar" class="bar"></div>
+          <p>fri</p>
+        </div>
+        <div class="saturday days">
+          <div id="sat-amt" class="amt">$33.21</div>
+          <div id="sat-bar" class="bar"></div>
+          <p>sat</p>
+        </div>
+        <div class="sunday days">
+          <div id="sun-amt" class="amt">$33.21</div>
+          <div id="sun-bar" class="bar"></div>
+          <p>sun</p>
+        </div>
+        
+      
       </div>
       
+      <div class="line"></div>
+
+      <div class="bottom">
+        <div class="month-total">
+          <p>Total this month</p>
+          <h1>$478.33</H1>
+        </div>
+        <div class="percent">
+          <h3>+2.4%</h3>
+          <p>from last month</p>
+        </div>
+      </div>
     
     </div>
-    
-    <div class="bottom">
-      <div class="month-total">
-        <p>Total this month</p>
-        <h1>$478.33</H1>
-      </div>
-      <div class="percent">
-        <h3>+2.4%</h3>
-        <p>from last month</p>
-      </div>
-    </div>
-  
   </div>
-</div>
-
-
-</div>
 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/gkgaines14" target="#">Greg Gaines</a>.
   </div>
-  <script src="app.js"></script>
+  <script type='module' src="app.js"></script>
 </body>
 </html>
