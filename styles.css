@@ -19,15 +19,25 @@ body {
     font-size: 18px;
     background-color: var(--cream);
     font-family: 'DM Sans', sans-serif;
+    height: 100vh;
+    overflow: hidden;
     display: flex;
     align-items: center;
-    flex-direction: column;
-
+    justify-content: center;
+   
+   
+    
 }
 
-.container{
-    width: 550px;
-}
+/* /* section{
+    display: flex;
+    align-items: center;
+    
+} */
+
+/* .container{ */
+    /* width: 550px; */
+/* } */
 
 .top {
     background-color: var(--soft-red);
