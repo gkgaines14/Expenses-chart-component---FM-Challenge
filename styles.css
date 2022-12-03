@@ -29,16 +29,6 @@ body {
     
 }
 
-/* /* section{
-    display: flex;
-    align-items: center;
-    
-} */
-
-/* .container{ */
-    /* width: 550px; */
-/* } */
-
 .top {
     background-color: var(--soft-red);
     color: var(--very-pale-orange);
